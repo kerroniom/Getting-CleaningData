@@ -23,6 +23,7 @@ The repo contains the other following other files;
 
 1) "run_analysis.R" - this is a file containing the R code to perform the above task. If you download the data set above into your working directory, and run the code you will see the output.
 2) "codebook" - this provides a detailed description of the steps taken to produce the analysis, and a description of the variables.
+3) "merged_data" - which is an output from part 4 described above.
 
 More information on the dataset can be found here;
 

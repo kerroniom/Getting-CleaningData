@@ -1,0 +1,15 @@
+The steps associated with the analysis are as follows;
+
+1) Downloaded the data (as per the 'README' fine, and saved into my working directory
+2) Loaded the 6 files containing the test & training data into 6 data frames 
+3) Joined the test & training data sets together using the 'rbind' command leaving 3 data frames
+4) Loaded in the 'features' file, and gave it column headings which I will use later on when merging data frames
+5) Joined the features info onto the corresponding data set, making sure only to include the fields with mean and standard deviation data
+6) Loaded in the activity lables file, and again gave it column names which I will use when merging data frames later on
+7) Merged the activity lables with the corresponding data set to replaced activity IDs 
+8) Combined the remaining 3 data frames into one named 'TidyData1'
+9) Wrote the 'TidyData1' into a file "merged_data.txt"
+
+- I ran out of time so didnt complete any further aggregation of the data
+
+The R script can be found in 'run_analysis.R', and will produce the above described results.
